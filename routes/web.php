@@ -16,11 +16,11 @@ use App\Http\Controllers\ContatoController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('principal');
 });
 
 Route::get('/home', function () {
-    return view('home');
+    return view('principal');
 });
 
 Route::get('/contato',[ContatoController::class,'contato'])->name('site.contato');

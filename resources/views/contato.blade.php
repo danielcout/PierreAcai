@@ -3,32 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato - Pierre Açaí</title>
+    <title>Contato - Pierre Açaí</title>  
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="flex bg-zinc-200 w-full p-3 flex-1 items-center justify-center">
-    <nav class="container relative h-14 flex items-center justify-between">
-        
-        <div class="hidden border-b md:block md:static md:py-0 md:border-none md:w-auto md:ml-auto" id="nav-menu">
-            <ul class="flex items-center justify-around text-center gap-12 md:flex-row menu_mode">
-                <li>
-                <a class="font-bold" href="{{ url('/quemsomos') }}">Quem Somos</a>
-                </li>
-                <li>
-                <a class="font-bold" href="{{ url('/contato') }}">Contato</a>
-                </li>
+
+<header class="bg-success text-white text-center py-3">
+        <h1>Quem Somos</h1>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Pierre Açaí</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a class="nav-link" href="{{ url('/principal') }}">Principal</a>
+                <li class="nav-item active"><a class="nav-link" href="{{ url('/quemsomos') }}">Quem somos</a>
+                <li class="nav-item active"><a class="nav-link" href="{{ url('/contato') }}">Contato</a>
             </ul>
-            <div class="absolute top[0.7rem] right-4 text-2xl cursor-pointer md:hidden" id="nav-close">
-            <span class="material-symbols-outlined">close</span>
-            </div>
         </div>
-    </nav>
-</header>
+</nav>
 
 
-<div class="flex flex-col justify-center py-32 sm:px-6 lg:px-8 bg-gatofundo bg-cover ">
+<div class="flex flex-col justify-center py-32 sm:px-6 lg:px-8 bg-gatofundo bg-cover text-center ">
 
 <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
   <div class="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
@@ -103,7 +103,7 @@
 -->
 
       <div class="mt-6">
-        <button class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-rose-900 hover:bg-rose-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-rose-700" type="submit">
+        <button class="text-gray-700 group relative w-full flex justify-center py-2 px-4 border border-transparent bg-green" type="submit">
          Enviar
         </button>
       </div>

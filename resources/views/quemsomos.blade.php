@@ -19,7 +19,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-            <li class="nav-item active"><a class="nav-link" href="{{ url('/home') }}">Principal</a>
+            <li class="nav-item active"><a class="nav-link" href="{{ url('/principal') }}">Principal</a>
                 <li class="nav-item active"><a class="nav-link" href="{{ url('/quemsomos') }}">Quem somos</a>
                 <li class="nav-item active"><a class="nav-link" href="{{ url('/contato') }}">Contato</a>
             </ul>
